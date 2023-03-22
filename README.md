@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,7 +21,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Setup first mobile Portfolio<a name="about-project"></a>
+# 📖 Mumbere Habert Personal Portfolio<a name="about-project"></a>
 This project is about Seting up a new repository and prepare it for development using best practices (e.g. linters).
 
 >
@@ -50,16 +49,10 @@ This project is about Seting up a new repository and prepare it for development 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -139,8 +132,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
+I would like to thank you for viewing this project. 
+You cannot immagine how much your support can improve this project.
 If you like this project, kindly contact me on my github: Authors](#authors)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
