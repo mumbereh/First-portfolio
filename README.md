@@ -22,7 +22,7 @@
 - [📝 License](#license)
 
 # 📖 Mumbere Habert Personal Portfolio<a name="about-project"></a>
-This project is about Seting up a new repository and prepare it for development using best practices (e.g. linters).
+This repository is a continuetion of Setup first mobile Portfolio project that covers the  Seting up of a new repository and prepare it for development using best practices (e.g. linters).
 
 >
 
@@ -133,7 +133,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 I would like to thank you for viewing this project. 
-You cannot immagine how much your support can improve this project.
+Your support and contribution will make it more productive and reliable.
 If you like this project, kindly contact me on my github: Authors](#authors)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,8 +143,9 @@ If you like this project, kindly contact me on my github: Authors](#authors)
 
 
 
-I would like to thank Microverse team for the best technical training they're taking me through
-I would like to thank my partners in learning and coding for the day to day guidance whenever I stuck. 
+I would like to thank my partner zilola for the guidance throughout the process of building this project
+I would like to thank my code reviewer have guiding me to produce required results
+I would like to thank my mentor for the courage and encouragement.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
