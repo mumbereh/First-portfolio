@@ -266,6 +266,7 @@ li {
   color: #7f8cff;
   margin-top: 4%;
 }
+
 .resume-btn {
   color: #396df2;
   font-size: 17px;
@@ -393,7 +394,6 @@ li {
   flex-direction: column;
   list-style: none;
 }
-
 
 .line {
   margin: 18px 0;
