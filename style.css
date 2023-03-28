@@ -411,13 +411,18 @@ li {
 }
 
 .form{
+  background-repeat: no-repeat;
   height: 780px;
-  background: #6070FF;
+  background-color: #6070FF;
+  background-image: url(images/bg_form.svg);
+  background-position: right;
   align-items: center;
   border-top-left-radius: 50px;
   max-width: 400px;
 }
+
 .form-header{
+  padding-top: 80px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -448,6 +453,7 @@ input{
   margin-bottom: 18px;
 }
 textarea{
+  height: 170px;
   padding: 10px;
   width: 85%;
   left: 0px;
