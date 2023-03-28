@@ -409,3 +409,58 @@ li {
   color: #868a8f;
   width: 87%;
 }
+
+.form{
+ height: 100vh;
+  background: #6070FF;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.form-header{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+display: flex;
+text-align: center;
+color: #FFFFFF;
+}
+form p{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+}
+input{
+height: 48px;
+width: 327px;  
+background: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+margin-bottom: 18px;
+}
+textarea{
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+margin-top: 18px;
+}
+
+.form-btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  width: 142px;
+  height: 48px;
+  left: 24px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
