@@ -411,7 +411,7 @@ li {
 }
 
 .form{
- height: 100vh;
+  height: 780px;
   background: #6070FF;
   align-items: center;
   border-top-left-radius: 50px;
@@ -422,7 +422,6 @@ li {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  display: flex;
   text-align: center;
   color: #FFFFFF;
 }
