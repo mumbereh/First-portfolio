@@ -480,9 +480,18 @@ textarea{
   background: #FFFFFF;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   font-style: normal;
+  cursor: pointer;
+  border: none;
+  color: #396df2;
 }
-
+.form-btn:hover {
+  background-color: #041b56;
+  color: #ffff;
+}
 .form li {
   margin-left: 0px;
 }
