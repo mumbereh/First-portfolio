@@ -410,10 +410,10 @@ li {
   width: 87%;
 }
 
-.form{
+.form {
   background-repeat: no-repeat;
   height: 780px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   background-image: url(images/bg_form.svg);
   background-position: right;
   align-items: center;
@@ -421,54 +421,55 @@ li {
   max-width: 400px;
 }
 
-.form-header{
+.form-header {
   padding-top: 80px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   padding-left: 24px;
   padding-right: 24px;
 }
 
-form p{
+form p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding-left: 24px;
   padding-right: 24px;
 }
 
-input{
+input {
   height: 48px;
   width: 85%;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 18px;
 }
-textarea{
+
+textarea {
   height: 170px;
   padding: 10px;
   width: 85%;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-top: 18px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
 
-.form-btn{
+.form-btn {
   margin-top: 22px;
   display: flex;
   flex-direction: row;
@@ -477,7 +478,7 @@ textarea{
   width: 142px;
   height: 48px;
   left: 24px;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -488,12 +489,14 @@ textarea{
   border: none;
   color: #396df2;
 }
+
 .form-btn:hover {
   background-color: #041b56;
   color: #ffff;
 }
+
 .form li {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 input[type="text"] {
