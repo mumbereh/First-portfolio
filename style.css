@@ -434,7 +434,6 @@ li {
   background-position: right;
   align-items: center;
   border-top-left-radius: 50px;
-  max-width: 400px;
 }
 
 .form-header {
@@ -456,12 +455,10 @@ form p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
   color: #ebebff;
   padding-left: 24px;
   padding-right: 24px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .form-body {
@@ -659,12 +656,10 @@ margin-right:46px
   grid-template-columns: 1fr 1fr;
 }
 .for-web{
-  height: 48px;
   top: 12px;
   border: 1px solid #FFFFFF;
 }
 .form{
-  width: 1440px;
   height: 846px;
   top: 5125px;
   background: #6070FF;
@@ -710,11 +705,64 @@ margin-right:46px
   margin-right:0px;
 }
 .list-language{
- 
-  display: inline;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.for-web {
+  display: flex;
+  flex-direction: column;
 }
 .about-myself .social-media ul{
  margin-left:-241px; 
 }
+
+.form-body {
+  justify-content: center;
+  margin: 1px;
+}
+.ul_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
 }
 
+input {
+  height: 48px;
+  width: 447px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  border-radius: 1px;
+}
+
+textarea {
+  height: 170px;
+ 
+  width: 447px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  border-radius: 1px;
+ 
+}
+.form p {
+  width: 400px;
+}
+.form-header {
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
