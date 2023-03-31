@@ -18,11 +18,10 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Mumbere Habert Personal Portfolio<a name="about-project"></a>
-This repository is a continuetion of Setup first mobile Portfolio project that covers the  Seting up of a new repository and prepare it for development using best practices (e.g. linters).
+This repository is a continuetion of Setup first mobile Portfolio project that covers the  Seting up of a new repository and prepare it for development using best practices (e.g. linters and README).
 
 >
 
