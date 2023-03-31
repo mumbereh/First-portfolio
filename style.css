@@ -763,6 +763,25 @@ textarea {
   padding-right: 24px;
   flex-direction: column;
   align-items: center;
-}
+  }
 
+  .logo {
+    transition-property: transform;
+    transition-duration: 1.5s;
+  }
+
+  .logo:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+  button {
+    transition-property: background-color, color, transform;
+    transition-duration: 0.5s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    background-color: #6070ff;
+    color: #fff;
+  }
 }
