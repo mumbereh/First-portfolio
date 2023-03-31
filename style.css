@@ -16,10 +16,14 @@ body {
   justify-content: right;
   margin-top: 30px;
   flex-wrap: wrap;
+
 }
 
 .menu {
   margin-right: 24px;
+}
+.desk{
+  display: none;
 }
 
 .logo {
@@ -70,7 +74,7 @@ body {
   margin-left: 24px;
 }
 
-.social-media {
+.social-media1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -116,6 +120,9 @@ li {
   height: 220px;
   border-radius: 8px;
 }
+.desktop-1{
+  display: none;
+}
 
 .card .instruction {
   font-family: 'Poppins', sans-serif;
@@ -125,6 +132,12 @@ li {
   line-height: 24px;
   top: 94px;
 }
+
+  .desk-praa{
+    display:none;
+
+  }
+
 
 .title {
   color: #172b4d;
@@ -201,6 +214,9 @@ li {
   font-family: 'Poppins', sans-serif;
   padding: 8px 12px;
   margin-right: 10px;
+}
+.ruby{
+  display:none;
 }
 
 .card-btn {
@@ -515,3 +531,190 @@ input[type="text"] {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
+
+@media screen and (min-width: 768px) {
+  .main-header {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-left:px;
+    margin-right:155px;
+  }
+.desk{
+  
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+
+}
+  .menu{
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ruby{
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  font-weight: 222px;
+  font-size: 12px;
+  background-color: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+.part1 {
+  background: url(images/Header\ bg@2x.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 50PX;
+
+}
+.head-name{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.37px;
+color: #091E42;
+margin-left: 260px;
+margin-top: 300PX;
+}
+.head-para{
+display: flex;
+width: 920px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+margin-left: 260px;
+
+}
+.sub-head{
+  margin-left: 260px
+}
+.social-media{
+  margin-left: 230px;
+}
+.logo{
+  margin-left: 155px;
+}
+.card{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+background: #FFFFFF;
+border: 1px solid #DFE1E6;
+border-radius: 24px;
+width: 90%;
+}
+.card img{
+width: 95%;
+height: 95%;
+left: 24px;
+top: 24px;
+}
+.title{
+width: 496px;
+height: 46px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+margin-left: 46px;
+margin-top: 48px;
+margin-right:46px 
+;
+}
+.field {
+
+  Width: 297px;
+  Height:40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  
+}
+.about-myself{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.for-web{
+  height: 48px;
+  top: 12px;
+  border: 1px solid #FFFFFF;
+}
+.form{
+  width: 1440px;
+  height: 846px;
+  top: 5125px;
+  background: #6070FF;
+
+}
+.social-media ul{
+  margin-right: 15px;
+
+
+
+
+}
+.field{
+  margin-left: 42px;
+}
+.card-btn{
+  margin-left: 42px;
+
+}
+.part1 ul{
+  margin-right:42px;  
+}
+.instruction{
+  display: none;
+}
+.desk-praa{
+  display: block;
+  margin-left:  42px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  top: 94px;
+}
+.first-image-1{
+  display: none;
+}
+.desktop-1{
+  display: block;
+}
+.for-web{
+  margin-right:0px;
+}
+.list-language{
+ 
+  display: inline;
+}
+.about-myself .social-media ul{
+ margin-left:-241px; 
+}
+}
+
