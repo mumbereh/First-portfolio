@@ -121,10 +121,6 @@ li {
   border-radius: 8px;
 }
 
-.desktop-1 {
-  display: none;
-}
-
 .card .instruction {
   font-family: 'Poppins', sans-serif;
   color: #344563;
@@ -340,6 +336,10 @@ li {
   color: #253858;
 }
 
+.language-heading img {
+  padding-left: 90%;
+}
+
 .tag-lang img {
   height: 60px;
   left: 25px;
@@ -381,16 +381,7 @@ li {
   line-height: 47px;
 }
 
-.first-title i {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 25px;
-  color: #acb7c3;
-  margin-left: 200px;
-}
-
-.second-title i {
+.about-myself .first-title img {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -542,9 +533,12 @@ input[type="text"] {
     display: inline-block;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 16px;
     margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344563;
   }
 
   .menu {
@@ -625,14 +619,11 @@ input[type="text"] {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 24px;
-    padding: 6px;
   }
 
   .card img {
     width: 95%;
     height: 95%;
-    left: 24px;
-    top: 24px;
   }
 
   .title {
@@ -664,6 +655,15 @@ input[type="text"] {
     padding: -43px;
     margin-top: 19px;
     margin-left: -17px;
+  }
+
+  .second-title img {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #acb7c3;
+    margin-left: 260px;
   }
 
   .about-myself {
@@ -713,10 +713,6 @@ input[type="text"] {
 
   .first-image {
     display: none;
-  }
-
-  .desktop-1 {
-    display: block;
   }
 
   .list-language {
@@ -855,5 +851,17 @@ input[type="text"] {
 
   .resume-btn {
     margin-left: 130px;
+  }
+
+  .language-header h3 {
+    margin-top: 29px;
+  }
+
+  #desktop1 img {
+    padding-left: 50%;
+  }
+
+  #desktop2 img {
+    padding-left: 30%;
   }
 }
