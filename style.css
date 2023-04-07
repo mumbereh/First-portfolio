@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap';
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
 
 * {
   left: 0;
@@ -43,7 +43,7 @@ body {
 }
 
 .head-name {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -55,7 +55,7 @@ body {
 }
 
 .head-para {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -66,7 +66,7 @@ body {
 }
 
 .sub-head {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -122,10 +122,15 @@ li {
   width: 100%;
   height: 220px;
   border-radius: 8px;
+  transition: scale 1s ease-in-out;
+}
+
+.card img:hover {
+  scale: 1.05;
 }
 
 .card .instruction {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #344563;
   font-size: 15px;
   font-weight: 400;
@@ -139,7 +144,7 @@ li {
 
 .title {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin: 2% 2% 8%;
@@ -163,7 +168,7 @@ li {
 
 .tag {
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -174,7 +179,7 @@ li {
 .field .cano {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -186,7 +191,7 @@ li {
 .para {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -220,7 +225,7 @@ li {
   font-weight: 222px;
   font-size: 12px;
   background-color: #ebebff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 8px 12px;
   margin-right: 10px;
   padding-left: 0;
@@ -228,7 +233,7 @@ li {
 }
 
 .card-btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 40px;
   color: #396df2;
   font-weight: 600px;
@@ -264,7 +269,7 @@ li {
 }
 
 .myself {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #172b4d;
   font-style: normal;
   font-weight: 700;
@@ -274,7 +279,7 @@ li {
 }
 
 .about-para {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -284,7 +289,7 @@ li {
 }
 
 .about-sub-head {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
   margin-left: 2%;
@@ -293,7 +298,7 @@ li {
 }
 
 .resume-btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #396df2;
   font-size: 17px;
   font-weight: bold;
@@ -314,7 +319,7 @@ li {
 }
 
 .language-head {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -338,7 +343,7 @@ li {
   height: 66.7155990600586px;
   margin: 10px;
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   text-align: right;
@@ -357,7 +362,7 @@ li {
 }
 
 .for-web {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   left: 76px;
   right: 12px;
   background: #f7f7f9;
@@ -372,7 +377,7 @@ li {
 }
 
 .frame-work {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -382,7 +387,7 @@ li {
 
 .second-title {
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   color: #000;
@@ -405,7 +410,7 @@ li {
 }
 
 .language-header h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -465,14 +470,14 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-top: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
 .form p {
   width: 271px;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -483,7 +488,7 @@ textarea {
 }
 
 .form-header {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -524,7 +529,7 @@ textarea {
   font-size: medium;
   margin-left: -146px;
   border: 0 cornsilk;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-btn:hover {
@@ -554,7 +559,7 @@ textarea {
     margin-left: -85px;
     margin-right: 117px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -581,7 +586,7 @@ textarea {
     font-weight: 222px;
     font-size: 12px;
     background-color: #ebebff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 8px 12px;
     margin-right: 10px;
     padding-left: 0;
@@ -589,14 +594,14 @@ textarea {
   }
 
   .head-name {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 920px;
     height: 122px;
     margin-left: 260px;
   }
 
   .head-para {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #344563;
@@ -631,6 +636,11 @@ textarea {
 
   .pic {
     order: 2;
+    transition: scale 1s ease-in-out;
+  }
+
+  .pic:hover {
+    scale: 1.05;
   }
 
   .title {
@@ -652,7 +662,7 @@ textarea {
   .desk-praa {
     display: block;
     width: 496px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -772,14 +782,14 @@ textarea {
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     margin-top: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
   }
 
   .form p {
     width: 400px;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -790,7 +800,7 @@ textarea {
   }
 
   .form-header {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
