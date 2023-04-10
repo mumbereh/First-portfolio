@@ -16,8 +16,8 @@ body {
   justify-content: right;
   margin-top: 30px;
   flex-wrap: wrap;
- 
 }
+
 .menu {
   margin-right: 24px;
 }
@@ -41,16 +41,16 @@ body {
   padding-bottom: 120px;
   border-bottom-left-radius: 15%;
 }
-.major img{
+
+.major img {
   margin-top: 40px;
   width: 200px;
   display: flex;
-  margin-left: 80x;
-  margin-bottom:200px;
+  margin-bottom: 200px;
   padding-left: 20%;
   border-radius: 360%;
- 
 }
+
 .head-name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -63,9 +63,7 @@ body {
   margin: 110px 30px 85px;
   margin-top: -200px;
 }
-.head-name{
-  animation: slideleft is linear forwards;
-}
+
 .head-para {
   margin-top: -70px;
   font-family: 'Poppins', sans-serif;
