@@ -125,10 +125,6 @@ li {
   transition: scale 1s ease-in-out;
 }
 
-.card img:hover {
-  scale: 1.05;
-}
-
 .card .instruction {
   font-family: "Poppins", sans-serif;
   color: #344563;
@@ -535,6 +531,10 @@ textarea {
 .form-btn:hover {
   background-color: #041b56;
   color: #f7f7f9;
+}
+
+.card img:hover {
+  scale: 1.05;
 }
 
 @media screen and (min-width: 768px) {
