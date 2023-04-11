@@ -1,11 +1,15 @@
+https://github.com/mumbereh/First-portfolio/pull/13
+
 <h1><b> Mumbere Habert Portofolio</b></h1>
 
 # 📗 Table of Contents
 
+-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,7 +26,7 @@
 - [📝 License](#license)
 
 # 📖 Mumbere Habert Personal Portfolio<a name="about-project"></a>
-This repository is a continuetion of Setup first mobile Portfolio project that covers the  Seting up of a new repository and prepare it for development using best practices (e.g. linters).
+This webpage is about my Portfolio. It covers my exprience and all information about myself.
 
 >
 
@@ -45,12 +49,18 @@ This repository is a continuetion of Setup first mobile Portfolio project that c
 
 - [ ] **Home page**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link]( https://mumbereh.github.io/First-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
