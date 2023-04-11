@@ -2,10 +2,12 @@
 
 # 📗 Table of Contents
 
+-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,7 +24,7 @@
 - [📝 License](#license)
 
 # 📖 Mumbere Habert Personal Portfolio<a name="about-project"></a>
-This project is about Seting up a new repository and prepare it for development using best practices (e.g. linters).
+This webpage is about my Portfolio. It covers my exprience and all information about myself.
 
 >
 
@@ -45,12 +47,18 @@ This project is about Seting up a new repository and prepare it for development 
 
 - [ ] **Home page**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link]( https://mumbereh.github.io/First-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -133,7 +141,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 I would like to thank you for viewing this project. 
-You cannot immagine how much your support can improve this project.
+Your support and contribution will make it more productive and reliable.
 If you like this project, kindly contact me on my github: Authors](#authors)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,8 +151,9 @@ If you like this project, kindly contact me on my github: Authors](#authors)
 
 
 
-I would like to thank Microverse team for the best technical training they're taking me through
-I would like to thank my partners in learning and coding for the day to day guidance whenever I stuck. 
+I would like to thank my partner zilola for the guidance throughout the process of building this project
+I would like to thank my code reviewer have guiding me to produce required results
+I would like to thank my mentor for the courage and encouragement.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
