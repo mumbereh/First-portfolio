@@ -1,5 +1,3 @@
-https://github.com/mumbereh/First-portfolio/pull/13
-
 <h1><b> Mumbere Habert Portofolio</b></h1>
 
 # 📗 Table of Contents
