@@ -969,7 +969,7 @@ textarea {
     width: 80%;
   }
 
-  .close-button {
+  nav.show .close-button {
     display: none;
   }
 
