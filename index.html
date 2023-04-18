@@ -12,15 +12,24 @@
     <title>My Portfolio</title>
 </head>
 <body>
-        <header class="main-header"> 
-            <a class="logo" href="#"><img src="images/My Logo (1).png" alt="home page logo"></a>
-            <nav id="nav-container">
-                    <a class="desk" href="#" >Project</a>
-                    <a class="desk" href="#" >About</a> 
-                    <a class="desk" href="#" >Contact</a>
-            <a class="menu" href="#" ><img src="icon/menu.png"alt="menu"></a>    
-        </nav>
-    </header>
+      </header>
+
+        <header>
+           <a class="logo" href="#"><img src="images/My Logo (1).png" alt="home page logo"></a>
+            <div class="menu-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <nav>
+            <button class="close-button">&times;</button>
+              <ul>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
         <section class="part1">
         <div>
         <h1 class="head-name">I’m Mumbere. <br>
@@ -235,5 +244,7 @@
             </form>
             </section>
 </div>
+
+<script src="index.js"></script>
 </body>
 </html>
