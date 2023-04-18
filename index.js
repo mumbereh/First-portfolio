@@ -2,6 +2,7 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
+const links = document.querySelectorAll('.links');
 
 menuToggle.addEventListener('click', () => {
   nav.classList.toggle('show');
@@ -15,3 +16,7 @@ closeBtn.addEventListener('click', () => {
   menuToggle.style.display = 'block';
 });
 
+links.forEach((n) => n.addEventListener('click', () => {
+  nav.classList.remove('show');
+  menuToggle.style.display = 'block';
+}));
