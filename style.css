@@ -66,6 +66,7 @@ nav ul {
   padding: 0;
 }
 
+
 nav li {
   list-style: none;
   display: inline;
@@ -75,6 +76,8 @@ nav li {
   bottom: 18.88%;
   margin-left: 15px;
   margin-right: 1rem;
+  bottom: 18.88%;
+  margin-left: 15px
 }
 
 nav a {
@@ -136,6 +139,10 @@ nav a {
   .close-button {
     display: block;
   }
+
+  /* .menu-toggle {
+    display: none;
+  } */
 }
 
 .part1 {
@@ -200,7 +207,7 @@ nav a {
   margin-top: 7%;
 }
 
-ul li {
+li {
   list-style: none;
   display: inline;
   left: 2.4%;
