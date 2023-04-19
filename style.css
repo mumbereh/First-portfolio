@@ -92,21 +92,22 @@ nav a {
   color: #333;
   font-weight: bold;
 }
-.links{
+
+.links {
   height: 24px;
   left: 4px;
   right: 68px;
   margin-top: 9%;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 44px; 
+  line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
-  
+  color: #fff;
 }
+
 .close-button {
   position: absolute;
   top: 0;
