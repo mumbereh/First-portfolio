@@ -66,6 +66,15 @@ nav ul {
   padding: 0;
 }
 
+li {
+  list-style: none;
+  display: inline;
+  left: 2.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+  margin-left: 15px;
+}
 
 nav li {
   list-style: none;
@@ -76,8 +85,6 @@ nav li {
   bottom: 18.88%;
   margin-left: 15px;
   margin-right: 1rem;
-  bottom: 18.88%;
-  margin-left: 15px
 }
 
 nav a {
@@ -88,14 +95,14 @@ nav a {
 
 .close-button {
   position: absolute;
-  top: -1%;
+  top: -6.4%;
   right: 8rem;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
   margin-left: 81.9%;
-  color: #fff;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -147,7 +154,7 @@ nav a {
 
 .part1 {
   background: url(images/background.jpeg);
-  background-position: cover;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -171,6 +178,7 @@ nav a {
   color: #172b4d;
   margin: 110px 24px 10px;
 }
+
 .head-para {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -204,16 +212,6 @@ nav a {
   margin: 0;
   padding: 0;
   margin-top: 7%;
-}
-
-li {
-  list-style: none;
-  display: inline;
-  left: 2.4%;
-  right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
-  margin-left: 15px;
 }
 
 .container {
@@ -335,7 +333,7 @@ li {
   background: #ebebff;
   border-radius: 8px;
   color: #6070ff;
-  font-weight: 222px;
+  font-weight: 222;
   font-size: 12px;
   background-color: #ebebff;
   font-family: "Poppins", sans-serif;
@@ -349,7 +347,7 @@ li {
   font-family: "Poppins", sans-serif;
   height: 40px;
   color: #396df2;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 17px;
   background-color: #fff;
   border-radius: 8px;
@@ -480,7 +478,6 @@ li {
   right: 12px;
   background: #f7f7f9;
   border-radius: 8px;
-  height: 66;
   margin: 10px;
   display: flex;
   font-weight: bold;
@@ -545,7 +542,7 @@ li {
   top: 200px;
   background: #6070ff;
   background-image: url(images/contact-bg.png);
-  background-position: cover;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 846px;
@@ -688,7 +685,7 @@ textarea {
 
   .part1 {
     background: url(images/5.png);
-    background-position: cover;
+    background-position: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -700,7 +697,6 @@ textarea {
     background: #ebebff;
     border-radius: 8px;
     color: #6070ff;
-    font-weight: 222px;
     font-size: 12px;
     background-color: #ebebff;
     font-family: "Poppins", sans-serif;
@@ -861,7 +857,7 @@ textarea {
     top: 200px;
     background: #6070ff;
     background-image: url(images/contact-bg.png);
-    background-position: cover;
+    background-position: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 846px;
