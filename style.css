@@ -92,17 +92,31 @@ nav a {
   color: #333;
   font-weight: bold;
 }
-
+.links{
+  height: 24px;
+  left: 4px;
+  right: 68px;
+  margin-top: 9%;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px; 
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  
+}
 .close-button {
   position: absolute;
-  top: -6.4%;
+  top: 0;
   right: 8rem;
   font-size: 2.8rem;
   background-color: transparent;
   border: none;
   cursor: pointer;
   margin-left: 81.9%;
-  color: #396df2;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
