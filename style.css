@@ -51,7 +51,7 @@ header {
   width: 25px;
   height: 3px;
   margin: 5px 0;
-  background-color: #333;
+  background-color: #396df2;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -102,7 +102,7 @@ nav a {
   border: none;
   cursor: pointer;
   margin-left: 81.9%;
-  color: black;
+  color: #396df2;
 }
 
 @media screen and (max-width: 768px) {
@@ -968,7 +968,7 @@ textarea {
     display: none;
   }
 
-  .menu-toggle {
+  .bar {
     display: none;
   }
 }
