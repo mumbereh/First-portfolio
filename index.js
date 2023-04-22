@@ -44,10 +44,11 @@ const project = [
 ];
 
 const proContainer = document.querySelector('.pro-container');
-for (let i = 0; i < project.length; i++) {
+project.forEach((proCard, cIndex) => {
+  const i = cIndex;
   const card = document.createElement('div');
   card.classList.add('card');
-  card.innerHTML = `
+  card.innerHTML += `
     <div class="card">
       <div class="pic">
         <img src="${project[i].src}" alt="">
@@ -72,10 +73,10 @@ for (let i = 0; i < project.length; i++) {
   `;
 
   proContainer.appendChild(card);
-};
+});
 
-const seeItems = document.querySelector('.card-btn');
-const cardsContainer = document.querySelector('.pop');
+// const seeItems = document.querySelector('.card-btn');
+// const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
 const popups = [
@@ -86,7 +87,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/First-portfolio',
-    project: 'https://github.com/mumbereh/First-portfolio'
+    project: 'https://github.com/mumbereh/First-portfolio',
   },
   {
     id: '02',
@@ -95,7 +96,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/canopy-website',
-    project: 'https://github.com/mumbereh/canopy-website'
+    project: 'https://github.com/mumbereh/canopy-website',
   },
   {
     id: '03',
@@ -104,7 +105,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/Swampflix',
-    project: 'https://github.com/mumbereh/Swampflix'
+    project: 'https://github.com/mumbereh/Swampflix',
   },
   {
     id: '04',
@@ -113,15 +114,14 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/Lambada',
-    project: 'https://github.com/mumbereh/Lambada'
+    project: 'https://github.com/mumbereh/Lambada',
   },
 ];
-
 
 // Select the card button and the popup container
 const cardBtn = document.querySelector('.card-btn');
 const popupContainer = document.querySelector('.popup');
-const close = document.querySelector('.closebtn');
+// const close = document.querySelector('.closebtn');
 
 // Create a function to show the popup
 function showPopup() {
@@ -132,7 +132,7 @@ function showPopup() {
   popupContainer.innerHTML = '';
 
   // Loop through the popups array and create the content for each popup
-  popups.forEach(popup => {
+  popups.forEach((popup) => {
     const popupContent = `
       <div class="popup">
         <h2 class="title">${popup.title}</h2>
