@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 //     const seeItems = document.querySelector('.card-btn');
 //     const cardsContainer = document.querySelector('.pop');
 //     const section = document.createElement('div');
@@ -81,3 +82,4 @@
 //       contact.classList.remove('all');
 //       doc.remove();
 //     });
+/* eslint-disable max-len */

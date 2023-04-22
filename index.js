@@ -1,4 +1,4 @@
-{ /* eslint-disable max-len */ }
+/* eslint-disable max-len */
 
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
@@ -172,4 +172,4 @@ function showPopup() {
 // Add a click event listener to the card button to show the popup when clicked
 cardBtn.addEventListener('click', showPopup);
 
-{ /* eslint-disable max-len */ }
+/* eslint-disable max-len */
