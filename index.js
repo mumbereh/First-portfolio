@@ -129,7 +129,7 @@ const popupContainer = document.querySelector('.popup');
             <li class="tag">&#8226; 2015</li>
           </ul>
           <div class="pop-img-container">
-            <img class="pop-image" src="${project[cardIndex].src}" alt="">
+            <img class="pop-img" src="${project[cardIndex].src}" alt="">
           </div>
           <div class="pop-para">
             <p>${project[cardIndex].description}</p>
@@ -143,19 +143,16 @@ const popupContainer = document.querySelector('.popup');
               <li class="bootstrap" >BootStrap</li>
             </ul>
           </div>
-          <div class="pop-links>
-            <a class="pop-link1" href="https://mumbereh.github.io/First-portfolio">
-            <button class="pop-card-btn" type="submit">
+          <div class="pop-links">
+            <button class="pop-link1 pop-card-btn" type="submit">
               See source
                 <img class="search" src="icon/popup.png">
             </button>
-            </a>
-            <a class="pop-link2" href="https://github.com/mumbereh/First-portfolio">
-              <button class="pop-card-btn" type="submit">
-                See source<img class="search" src="icon/popup.png">
-              </button>
-            </a>
+            <button class="pop-link2 pop-card-btn" type="submit">
+              See source<img class="search" src="icon/popup.png">
+            </button>
           </div>
+
       </div> `;
 
       popupContainer.style.display = 'flex';

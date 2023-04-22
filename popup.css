@@ -9,7 +9,8 @@
   width: 100%;
   height: 100vh;
   z-index: 10;
-  padding: 2rem 0.5rem;
+  padding: 0;
+  overflow: auto;
 }
 
 .popup {
@@ -19,17 +20,31 @@
   justify-content: start;
   gap: 8px;
   position: relative;
-  height: 90vh;
-  width: 100%;
-  margin: 0;
-  padding: 0.5rem;
+  height: auto;
+  width: auto;
+  margin: 15px 0 auto 0;
+  padding: 4%;
   border: 1px solid;
   border-radius: 6px;
   flex-direction: column;
   border: 1px solid #ebecf0;
   background-color: #fff;
   z-index: 99;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+}
+
+.pop-title {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  color: #091e42;
+  text-align: left;
+  display: inline;
+  order: 0;
+  margin: 0;
+  font-size: 36px;
 }
 
 .pop-field {
@@ -39,6 +54,32 @@
   width: auto;
   height: auto;
   order: 1;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.pop-img-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 2px;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.pop-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  order: 0;
 }
 
 .pop-skills {
@@ -55,19 +96,21 @@
 
 .pop-links {
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
-  margin-top: 400px;
-  padding: 5px;
+  margin: 3% 0 1% 0;
+  padding: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1.5rem;
   order: 5;
+  background-color: #fff;
 }
 
 pop-link1 {
     position: relation;
-    width:auto;
+    width: 48%;
     height: auto;
     margin:0;
     padding:0;
@@ -75,14 +118,19 @@ pop-link1 {
 }
 pop-link2 {
     position: relation;
-    width:auto;
+    width: 48%;
     height: auto;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     order: 1;
 }
 
 .pop-para {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
@@ -90,43 +138,7 @@ pop-link2 {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-}
-
-.pop-title {
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  color: #091e42;
-  text-align: left;
-  display: inline;
-  margin-top: -40px;
-  order: 0;
-  margin: 0;
-  font-size: 36px;
-}
-
-.pop-img-container {
-  position: relative;
-  margin: auto;
-  padding: auto;
-  width: 100%;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  order: 2;
-}
-
-.pop-image {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  order: 2;
+  order: 3;
 }
 
 #btn {
@@ -152,36 +164,9 @@ pop-link2 {
   float: right;
 }
 
-  /* border: 1px solid #ebecf0;
-  padding-left: 24px; */
-
-  /* background: #090179a6; */
-
-  /* border: 1px solid #EBECF0; */
-
-  /* box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08); */
-
-  /* border-radius: 16px; */
-
-  /* margin-left: 5%; */
-  /* margin-top: 20px;
-  padding-top: 20px;
-  margin-left: 3%;
-  margin-right: 3%; */
-
 
 .pop .field {
   margin-top: 20px;
-}
-
-.pop-para {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #344563;
 }
 
 .pop .title {
@@ -273,12 +258,6 @@ ul.pop-training li {
     margin-top: -4px;
   }
 
-  .pop-para {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-
   .last-pop .trainning2 {
     display: flex;
     padding: 20px;
@@ -288,19 +267,6 @@ ul.pop-training li {
     margin-left: 0;
     padding-left: 0;
     margin-top: -4px;
-  }
-
-  .pop-para {
-    display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .other-skills {
@@ -381,16 +347,16 @@ ul.pop-training li {
 .pop-card-btn {
     position: relative;
     font-family: "Poppins", sans-serif;
-    height: 40px;
+    height: 42px;
     color: #396df2;
     font-weight: 600;
     font-size: 17px;
     background-color: #fff;
     border-radius: 8px;
     padding: 5px 14px;
-    margin-top: -20px;
+    margin: 0;
     border: 1.5px solid #396df2;
-    width: fit-content;
+    width: 10rem;
     cursor: pointer;
   }
   
