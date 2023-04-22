@@ -20,7 +20,6 @@ links.forEach((n) => n.addEventListener('click', () => {
   menuToggle.style.display = 'block';
 }));
 
-
 const project = [
   {
     src: 'images/61.png',
@@ -45,11 +44,9 @@ const project = [
 ];
 
 const proContainer = document.querySelector('.pro-container');
-
 for (let i = 0; i < project.length; i++) {
   const card = document.createElement('div');
   card.classList.add('card');
-
   card.innerHTML = `
     <div class="card">
       <div class="pic">
@@ -81,7 +78,6 @@ const seeItems = document.querySelector('.card-btn');
 const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
-
 const popups = [
   {
     id: '01',
@@ -122,16 +118,16 @@ const popups = [
 ];
 
 
-            // Select the card button and the popup container
+// Select the card button and the popup container
 const cardBtn = document.querySelector('.card-btn');
 const popupContainer = document.querySelector('.popup');
-const close=document.querySelector('.closebtn');
+const close = document.querySelector('.closebtn');
 
 // Create a function to show the popup
 function showPopup() {
   // Add a class to the popup container to show it
   popupContainer.classList.add('show');
-  
+
   // Remove any existing content from the popup
   popupContainer.innerHTML = '';
 
@@ -175,11 +171,27 @@ function showPopup() {
 // Add a click event listener to the card button to show the popup when clicked
 cardBtn.addEventListener('click', showPopup);
 
+// Contact for validation and giving error feedback
+const form = document.querySelector('form');
+function handleSubmit(event) {
+  event.preventDefault();
 
+  const emailInput = document.querySelector('#email');
+  const email = emailInput.value;
 
-
-
-
-
-
-
+  if (email === email.toLowerCase()) {
+    // If it fits requirement[lowercase], ahead
+    form.submit();
+  } else {
+    // Otherwise show dynamic error below
+    let errorMessage = form.querySelector('.errorMsg');
+    if (errorMessage) {
+      form.removeChild(errorMessage);
+    }
+    errorMessage = document.createElement('p');
+    errorMessage.classList.add('errorMsg');
+    errorMessage.textContent = 'Error! This field accepts only lowercases.';
+    form.appendChild(errorMessage);
+  }
+}
+form.addEventListener('submit', handleSubmit);
