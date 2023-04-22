@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
@@ -45,7 +46,7 @@ const project = [
 
 const proContainer = document.querySelector('.pro-container');
 
-for (let i = 0; i < project.length; i++) {
+for (let i = 0; i < project.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('card');
 
@@ -76,8 +77,6 @@ for (let i = 0; i < project.length; i++) {
   proContainer.appendChild(card);
 }
 
-const seeItems = document.querySelector('.card-btn');
-const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
 
@@ -123,7 +122,6 @@ const popups = [
 // Select the card button and the popup container
 const cardBtn = document.querySelector('.card-btn');
 const popupContainer = document.querySelector('.popup');
-const close = document.querySelector('.closebtn');
 
 // Create a function to show the popup
 function showPopup() {
@@ -172,3 +170,4 @@ function showPopup() {
 
 // Add a click event listener to the card button to show the popup when clicked
 cardBtn.addEventListener('click', showPopup);
+/* eslint-disable max-len */
