@@ -1,3 +1,5 @@
+{ /* eslint-disable max-len */ }
+
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
@@ -19,7 +21,6 @@ links.forEach((n) => n.addEventListener('click', () => {
   nav.classList.remove('show');
   menuToggle.style.display = 'block';
 }));
-
 
 const project = [
   {
@@ -64,7 +65,7 @@ const project = [
 
 const proContainer = document.querySelector('.pro-container');
 
-for (let i = 0; i < project.length; i++) {
+for (let i = 0; i < project.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('card');
 
@@ -93,7 +94,7 @@ for (let i = 0; i < project.length; i++) {
   `;
 
   proContainer.appendChild(card);
-};
+}
 
 //const seeItems = document.querySelector('.card-btn');
 const cardsContainer = document.querySelector('.pop');
@@ -105,7 +106,6 @@ section.className = 'popup';
 const popupModal = document.querySelector('#popup-modal');
 const cardBtn = document.querySelectorAll('.card-btn');
 const popupContainer = document.querySelector('.popup');
-const close=document.querySelector('.closebtn');
 
   // Loop through the popups array and create the content for each popup
   // popups.forEach((popup, popupindex), cardBtn((btn, btnIndex).addEventListener('click', () => {

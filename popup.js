@@ -1,9 +1,8 @@
-
 //     const seeItems = document.querySelector('.card-btn');
 //     const cardsContainer = document.querySelector('.pop');
 //     const section = document.createElement('div');
 //     section.className = 'Popup';
-  
+
 //     const popups = [
 //       {
 //         src: 'images/61.png',
@@ -30,7 +29,7 @@
 //         description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
 //       },
 //     ];
-  
+
 //     popups.forEach((popup) => {
 //       let content = '';
 //       content += `
@@ -68,9 +67,8 @@
 //       `;
 //       section.innerHTML += content;
 //     });
-  
-//     cardsContainer.appendChild(section);
 
+//     cardsContainer.appendChild(section);
 
 //     document.body.prepend(doc);
 
@@ -83,12 +81,3 @@
 //       contact.classList.remove('all');
 //       doc.remove();
 //     });
-
-
-
-
-
-
-
-
-  
