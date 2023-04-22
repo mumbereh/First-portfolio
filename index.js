@@ -25,22 +25,40 @@ const project = [
   {
     src: 'images/61.png',
     title: 'Tonic',
-    description: 'A daily selection of privately personalized reads no accounts or sign-ups required',
+    description: [
+      'A daily selection of privately personalized reads no accounts or sign-ups required',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
+    ],
+    details: 'See project',
+    live: 'https://mumbereh.github.io/First-portfolio',
+    source: 'https://github.com/mumbereh/First-portfolio',
   },
+
   {
     src: 'images/4.png',
     title: 'Multi-Post Stories',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    details: 'See project',
+    live: 'https://mumbereh.github.io/canopy-website',
+    source: 'https://github.com/mumbereh/canopy-website',
   },
+
   {
     src: 'images/1.png',
     title: 'Facebook 360',
     description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    details: 'See project',
+    live: 'https://mumbereh.github.io/Swampflix',
+    source: 'https://github.com/mumbereh/Swampflix', 
   },
+
   {
     src: 'images/2.png',
     title: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    details: 'See project',
+    live: 'https://mumbereh.github.io/Lambada',
+    source: 'https://github.com/mumbereh/Lambada'
   },
 ];
 
@@ -62,14 +80,14 @@ for (let i = 0; i < project.length; i++) {
           <li class="tag">&#8226; Full Stack Dev </li>
           <li class="tag">&#8226; 2015</li>
         </ul>
-        <p class="desk-praa">${project[i].description}</p>
+        <p class="desk-praa">${project[i].description[0]}</p>
         <ul class="trainning">
           <li class="other-skills">html</li>
           <li class="ruby">Ruby on rails</li>
           <li class="other-skills">css</li>
           <li class="other-skills">javascript</li>
         </ul>
-        <button  onclick="openPopup()" class="card-btn">See Project</button>
+        <button class="card-btn">${project[i].details}  </button>
       </div>
     </div>
   `;
@@ -77,109 +95,70 @@ for (let i = 0; i < project.length; i++) {
   proContainer.appendChild(card);
 };
 
-const seeItems = document.querySelector('.card-btn');
+//const seeItems = document.querySelector('.card-btn');
 const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
 
-const popups = [
-  {
-    id: '01',
-    src: 'images/61.png',
-    title: 'Tonic',
-    description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    live: 'https://mumbereh.github.io/First-portfolio',
-    project: 'https://github.com/mumbereh/First-portfolio'
-  },
-  {
-    id: '02',
-    src: 'images/4.png',
-    title: 'Multi-Post Stories',
-    description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    live: 'https://mumbereh.github.io/canopy-website',
-    project: 'https://github.com/mumbereh/canopy-website'
-  },
-  {
-    id: '03',
-    src: 'images/1.png',
-    title: 'Facebook 360',
-    description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    live: 'https://mumbereh.github.io/Swampflix',
-    project: 'https://github.com/mumbereh/Swampflix'
-  },
-  {
-    id: '04',
-    src: 'images/2.png',
-    title: 'Uber Navigation',
-    description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
-    live: 'https://mumbereh.github.io/Lambada',
-    project: 'https://github.com/mumbereh/Lambada'
-  },
-];
 
-
-            // Select the card button and the popup container
-const cardBtn = document.querySelector('.card-btn');
+// Select the card button and the popup container
+const popupModal = document.querySelector('#popup-modal');
+const cardBtn = document.querySelectorAll('.card-btn');
 const popupContainer = document.querySelector('.popup');
 const close=document.querySelector('.closebtn');
 
-// Create a function to show the popup
-function showPopup() {
-  // Add a class to the popup container to show it
-  popupContainer.classList.add('show');
-  
-  // Remove any existing content from the popup
-  popupContainer.innerHTML = '';
-
   // Loop through the popups array and create the content for each popup
-  popups.forEach(popup => {
-    const popupContent = `
-      <div class="popup">
-        <h2 class="title">${popup.title}</h2>
-        <ul class="field">
-          <li class="cano">CANOPY</li>
-          <li class="tag">&#8226; Back End Dev </li>
-          <li class="tag">&#8226; 2015</li>
-        </ul>
-        <img src="${popup.src}" alt="">
-        <div class="pop-para">
-          <p>${popup.description1}</p><br>
-          <p>${popup.description2}</p>
-        </div>
-        <div class="pop-skills">
-       <ul class="trainning2">
-        <li class="other-skills">HTML</li>
-        <li class="other-skills">CSS</li>
-        <li class="other-skills">JavaScript</li>
-        <li id="desk2" class="ruby">Ruby </li>
-        <li id="desk2" class="other-skills" >BootStrap</li>
-    </ul>
-    <a href="https://mumbereh.github.io/First-portfolio">
-    <button type="submit">See source<img class="search" src="icon/popup.png"></button>
-  </a>
-    <a href="https://github.com/mumbereh/First-portfolio">
-    <button type="submit">See source<img class="search" src="icon/popup.png"></button>
-  </a>
-</div> 
-      
-    `;
-    // Append the popup content to the popup container
-    popupContainer.innerHTML = popupContent;
-  });
-}
+  // popups.forEach((popup, popupindex), cardBtn((btn, btnIndex).addEventListener('click', () => {
+  // console.log(cardBtn)
+  
+  // iterate over project objects and details button and compare index
+  // if indexes are same show card from that index.
+  // fill the content of popupContainer using matching index
+  project.forEach((pCard, cardIndex) => {
+    cardBtn.forEach((btn, btnIndex) => {
+     btn.addEventListener('click', () => {
+     if( btnIndex === cardIndex) {
+      // Add a class to the popup container to show it
+      popupModal.style.display = "block"
+        popupModal.innerHTML = `
+        <div class="popup">
+          <h2 class="pop-title">${project[cardIndex].title}</h2>
+          <ul class="pop-field">
+            <li class="cano">CANOPY</li>
+            <li class="tag">&#8226; Back End Dev </li>
+            <li class="tag">&#8226; 2015</li>
+          </ul>
+          <div class="pop-img-container">
+            <img class="pop-image" src="${project[cardIndex].src}" alt="">
+          </div>
+          <div class="pop-para">
+            <p>${project[cardIndex].description}</p>
+          </div>
+          <div class="pop-skills">
+            <ul class="pop-training">
+              <li class="other-skills">HTML</li>
+              <li class="other-skills">CSS</li>
+              <li class="other-skills">JavaScript</li>
+              <li class="ruby">Ruby </li>
+              <li class="bootstrap" >BootStrap</li>
+            </ul>
+          </div>
+          <div class="pop-links>
+            <a class="pop-link1" href="https://mumbereh.github.io/First-portfolio">
+            <button class="pop-card-btn" type="submit">
+              See source
+                <img class="search" src="icon/popup.png">
+            </button>
+            </a>
+            <a class="pop-link2" href="https://github.com/mumbereh/First-portfolio">
+              <button class="pop-card-btn" type="submit">
+                See source<img class="search" src="icon/popup.png">
+              </button>
+            </a>
+          </div>
+      </div> `;
 
-// Add a click event listener to the card button to show the popup when clicked
-cardBtn.addEventListener('click', showPopup);
-
-
-
-
-
-
-
-
-
+      popupContainer.style.display = 'flex';
+     }
+    }) 
+   })});
