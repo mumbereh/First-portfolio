@@ -1,5 +1,3 @@
-
-
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
@@ -50,7 +48,7 @@ const project = [
     description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     details: 'See project',
     live: 'https://mumbereh.github.io/Swampflix',
-    source: 'https://github.com/mumbereh/Swampflix', 
+    source: 'https://github.com/mumbereh/Swampflix',
   },
 
   {
@@ -59,7 +57,7 @@ const project = [
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     details: 'See project',
     live: 'https://mumbereh.github.io/Lambada',
-    source: 'https://github.com/mumbereh/Lambada'
+    source: 'https://github.com/mumbereh/Lambada',
   },
 ];
 
@@ -96,30 +94,29 @@ for (let i = 0; i < project.length; i += 1) {
   proContainer.appendChild(card);
 }
 
-//const seeItems = document.querySelector('.card-btn');
-const cardsContainer = document.querySelector('.pop');
+// const seeItems = document.querySelector('.card-btn');
+// const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
-
 
 // Select the card button and the popup container
 const popupModal = document.querySelector('#popup-modal');
 const cardBtn = document.querySelectorAll('.card-btn');
 const popupContainer = document.querySelector('.popup');
 
-  // Loop through the popups array and create the content for each popup
-  // popups.forEach((popup, popupindex), cardBtn((btn, btnIndex).addEventListener('click', () => {
-  // console.log(cardBtn)
-  
-  // iterate over project objects and details button and compare index
-  // if indexes are same show card from that index.
-  // fill the content of popupContainer using matching index
-  project.forEach((pCard, cardIndex) => {
-    cardBtn.forEach((btn, btnIndex) => {
-     btn.addEventListener('click', () => {
-     if( btnIndex === cardIndex) {
+// Loop through the popups array and create the content for each popup
+// popups.forEach((popup, popupindex), cardBtn((btn, btnIndex).addEventListener('click', () => {
+// console.log(cardBtn)
+
+// iterate over project objects and details button and compare index
+// if indexes are same show card from that index.
+// fill the content of popupContainer using matching index
+project.forEach((pCard, cardIndex) => {
+  cardBtn.forEach((btn, btnIndex) => {
+    btn.addEventListener('click', () => {
+      if (btnIndex === cardIndex) {
       // Add a class to the popup container to show it
-      popupModal.style.display = "block"
+        popupModal.style.display = 'block';
         popupModal.innerHTML = `
         <div class="popup">
           <h2 class="pop-title">${project[cardIndex].title}</h2>
@@ -155,7 +152,8 @@ const popupContainer = document.querySelector('.popup');
 
       </div> `;
 
-      popupContainer.style.display = 'flex';
-     }
-    }) 
-   })});
+        popupContainer.style.display = 'flex';
+      }
+    });
+  });
+});

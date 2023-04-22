@@ -712,10 +712,6 @@ textarea {
     margin-right: 10px;
   }
 
-  .ruby {
-    display: inline;
-  }
-
   .boot {
     display: inline;
     display: flex;
