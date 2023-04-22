@@ -1,3 +1,5 @@
+{ /* eslint-disable max-len */ }
+
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
@@ -19,7 +21,6 @@ links.forEach((n) => n.addEventListener('click', () => {
   nav.classList.remove('show');
   menuToggle.style.display = 'block';
 }));
-
 
 const project = [
   {
@@ -46,7 +47,7 @@ const project = [
 
 const proContainer = document.querySelector('.pro-container');
 
-for (let i = 0; i < project.length; i++) {
+for (let i = 0; i < project.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('card');
 
@@ -75,10 +76,8 @@ for (let i = 0; i < project.length; i++) {
   `;
 
   proContainer.appendChild(card);
-};
+}
 
-const seeItems = document.querySelector('.card-btn');
-const cardsContainer = document.querySelector('.pop');
 const section = document.createElement('div');
 section.className = 'popup';
 
@@ -90,7 +89,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/First-portfolio',
-    project: 'https://github.com/mumbereh/First-portfolio'
+    project: 'https://github.com/mumbereh/First-portfolio',
   },
   {
     id: '02',
@@ -99,7 +98,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/canopy-website',
-    project: 'https://github.com/mumbereh/canopy-website'
+    project: 'https://github.com/mumbereh/canopy-website',
   },
   {
     id: '03',
@@ -108,7 +107,7 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/Swampflix',
-    project: 'https://github.com/mumbereh/Swampflix'
+    project: 'https://github.com/mumbereh/Swampflix',
   },
   {
     id: '04',
@@ -117,26 +116,24 @@ const popups = [
     description1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     description2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.',
     live: 'https://mumbereh.github.io/Lambada',
-    project: 'https://github.com/mumbereh/Lambada'
+    project: 'https://github.com/mumbereh/Lambada',
   },
 ];
 
-
-            // Select the card button and the popup container
+// Select the card button and the popup container
 const cardBtn = document.querySelector('.card-btn');
 const popupContainer = document.querySelector('.popup');
-const close=document.querySelector('.closebtn');
 
 // Create a function to show the popup
 function showPopup() {
   // Add a class to the popup container to show it
   popupContainer.classList.add('show');
-  
+
   // Remove any existing content from the popup
   popupContainer.innerHTML = '';
 
   // Loop through the popups array and create the content for each popup
-  popups.forEach(popup => {
+  popups.forEach((popup) => {
     const popupContent = `
       <div class="popup">
         <h2 class="title">${popup.title}</h2>
@@ -175,11 +172,4 @@ function showPopup() {
 // Add a click event listener to the card button to show the popup when clicked
 cardBtn.addEventListener('click', showPopup);
 
-
-
-
-
-
-
-
-
+{ /* eslint-disable max-len */ }
