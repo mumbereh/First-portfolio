@@ -1,3 +1,5 @@
+{ /* eslint-disable max-len */ }
+
 const formInputs = document.querySelectorAll('.capture-data');
 const formInputsArr = Array.from(formInputs);
 const formStorage = {
@@ -23,3 +25,5 @@ formInputsArr.forEach((formInput) => {
   });
 });
 window.addEventListener('load', loadLocalStorage);
+
+{ /* eslint-disable max-len */ }
