@@ -55,6 +55,16 @@ header {
   transition: transform 0.2s ease-in-out;
 }
 
+.cover {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 20px;
+  margin-left: -2%;
+  border-radius: 45%;
+  margin-bottom: 10%;
+}
+
 nav {
   display: flex;
 }
@@ -191,7 +201,7 @@ nav a {
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin: 110px 24px 10px;
+  margin: -48px 24px 10px;
 }
 
 .head-para {
