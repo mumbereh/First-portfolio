@@ -22,11 +22,6 @@ body {
   margin-right: 24px;
 }
 
-/* .logo {
-  margin-right: auto;
-  margin-left: 24px;
-} */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -108,7 +103,7 @@ nav a {
   left: 4px;
   right: 68px;
   margin-top: 9%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -141,7 +136,7 @@ nav a {
     left: 0;
     width: 100%;
     height: 97vh;
-    background-color: #6070fff2;
+    background-color: #6070ff;
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transform: translateX(-100%);
@@ -249,6 +244,8 @@ nav a {
 .card {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  justify-content: start;
   gap: 12px;
   background: #fff;
   border-radius: 16px;
@@ -334,7 +331,7 @@ nav a {
 
 .trainning {
   display: flex;
-  padding: 20px;
+  padding: 0;
   margin-bottom: 5%;
   list-style: none;
   flex-wrap: wrap;
@@ -723,8 +720,21 @@ textarea {
     font-family: "Poppins", sans-serif;
     padding: 8px 12px;
     margin-right: 10px;
-    padding-left: 0;
-    margin-left: 0;
+  }
+
+  .boot {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-size: 12px;
+    background-color: #ebebff;
+    font-family: "Poppins", sans-serif;
+    padding: 8px 12px;
+    margin-right: 10px;
   }
 
   .head-name {
@@ -990,6 +1000,11 @@ textarea {
   }
 
   .bar {
+    display: none;
+  }
+
+  .ruby,
+  .bootstrap {
     display: none;
   }
 }
