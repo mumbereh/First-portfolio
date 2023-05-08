@@ -103,6 +103,10 @@ section.className = 'popup';
 const popupModal = document.querySelector('#popup-modal');
 const cardBtn = document.querySelectorAll('.card-btn');
 const popupContainer = document.querySelector('.popup');
+const button =document.getElementById('live-btn')
+
+
+
 
 // Loop through the popups array and create the content for each popup
 // popups.forEach((popup, popupindex), cardBtn((btn, btnIndex).addEventListener('click', () => {
@@ -141,12 +145,17 @@ project.forEach((pCard, cardIndex) => {
             </ul>
           </div>
           <div class="pop-links">
+          <div>
+          <a href="https://github.com/mumbereh/First-portfolio">
             <button class="pop-link1 pop-card-btn" type="submit">
-              See source
-                <img class="search" src="icon/popup.png">
+              live project 
+            <img class="search" src="icon/popup.png">
+          </div>
             </button>
+            <a href="https://mumbereh.github.io/First-portfolio">
             <button class="pop-link2 pop-card-btn" type="submit">
-              See source<img class="search" src="icon/popup.png">
+              See source <img class="search" src="icon/popup.png">
+            
             </button>
           </div>
 
